@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-
+import Scroll from './scroll'
 import $ from "jquery";
 import Team from "./team";
 import 'owl.carousel';
@@ -109,9 +109,10 @@ lcomponentDidCatch(error, errorInfo) {
     render() {
  
         return (
-
+            <div>
 
             <BrowserRouter>
+            <Scroll />
             <Routes>
             <Route path="/" element={<Main />} />           
             <Route index element={<Main />} />
@@ -119,6 +120,7 @@ lcomponentDidCatch(error, errorInfo) {
             
             </Routes>
             </BrowserRouter>
+            </div>
         );
     }
 }
