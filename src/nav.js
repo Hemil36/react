@@ -7,7 +7,9 @@ export default function Pop() {
     return (
 
         <div >
-           
+           <div className="scroll-up-btn">
+        <i className="fas fa-angle-up"></i>
+    </div>
             <nav className="navbar flex">
 
 

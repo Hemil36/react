@@ -85,7 +85,7 @@ lcomponentDidCatch(error, errorInfo) {
                 margin: 20,
                 loop: true,
                 autoplay: true,
-                autoplayTimeOut: 2000,
+                autoplayTimeOut: 20,
                 autoplayHoverPause: true,
                 responsive: {
                     0: {
@@ -115,7 +115,7 @@ lcomponentDidCatch(error, errorInfo) {
             <Scroll />
             <Routes>
             <Route path="/" element={<Main />} />           
-            <Route index element={<Main />} />
+         
             <Route path="/team" element={<Team />} />
             
             </Routes>
