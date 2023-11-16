@@ -1067,7 +1067,7 @@ strong {
     gap: 5px;
 }
 .about,.home,.sticky,.skills,#teams,.navbar,#contact{
-    cursor: url(https://cdn.custom-cursor.com/db/15882/32/minimal-sleeping-cap-cursor.png) ,default !important }
+    cursor: url("../public/images/cursor.png") ,default !important }
 #teams {
     /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
     background-image: url('images/pluto.jpg');
