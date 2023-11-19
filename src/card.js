@@ -2,7 +2,7 @@ import React from "react";
 
 export default function card(props){
     return(
-        <div className="card">
+        <div className="card " data-aos="zoom-in-right">
         
                             <div className="box">
                                 <img src= {props.image} alt="" />

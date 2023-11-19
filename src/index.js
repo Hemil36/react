@@ -6,7 +6,7 @@ import Team from "./team";
 import 'owl.carousel';
 import Main from "./main";
 import { BrowserRouter, Route,Routes } from "react-router-dom";
-
+import Button from './Scroll-button'
 class App extends Component {
 
 lcomponentDidCatch(error, errorInfo) {

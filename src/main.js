@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 import Nav from "./nav";
 import About from "./about"
 import './2.scss';
+import ScrollButton from "./Scroll-button";
 export default function main() {
     return (
         <div className="popat">
@@ -36,6 +37,7 @@ export default function main() {
             <Events />
             <Members />
             <Footer />
+            <ScrollButton />
         </div>
     )
         ;
