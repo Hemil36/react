@@ -28,8 +28,8 @@ const ScrollButton = () =>{
   
   return ( 
     
-    <div class="scroll-up-btn" onClick={scrollToTop}>
-        <i class="fas fa-angle-up"></i>
+    <div className="scroll-up-btn" onClick={scrollToTop}>
+        <i className="fas fa-angle-up"></i>
     </div>
   
   ); 

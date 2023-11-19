@@ -1284,6 +1284,18 @@ canvas {
 }
 
 @media (max-width: 933px) {
+    .popat .fa-angle-up:before{
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+      
+    }
+    
+    .fas {
+        position: absolute;
+        right: 4rem;
+        top: 0.1rem;
+    }
     .cop {
         flex-direction: column;
     }
@@ -1384,11 +1396,7 @@ canvas {
     }
 
 
-    .fas {
-        position: absolute;
-        right: 4rem;
-        top: 4.3rem
-    }
+    
 
     .sticky .fas {
         position: absolute;
@@ -1557,12 +1565,12 @@ canvas {
 }
 
 @media (max-width: 698px) {
-    .fa-angle-up:before {
-        position: relative;
-        bottom: 4.6rem;
-        left: 0.3rem;
-
-    }
+    // .fa-angle-up:before {
+    //     position: relative;
+    //     bottom: 4.6rem;
+    //     left: 0.3rem;
+        
+    // }
     .owl-stage{
         transform: translate3d(0,0,0) !important;
     }
@@ -1572,6 +1580,11 @@ canvas {
             margin-left: 0 !important;
            
         } */
+        .popat .fas {
+            position: absolute;
+            right: 1rem !important;
+            top: 0.1rem !important;
+        }
     .card {
         text-align: center;
         width: 100%;
@@ -1590,11 +1603,7 @@ canvas {
 
     }
 
-    .fas {
-        position: absolute;
-        right: 4rem;
-        top: 5rem
-    }
+    
 
     .navbar .logo a span {
         position: relative;
@@ -1607,10 +1616,7 @@ canvas {
         margin-right: 0.2rem;
     }
 
-    .fas {
-        right: 1rem;
-        bottom: 1rem;
-    }
+    
 
     .menu {
         padding-left: 0;
@@ -1773,7 +1779,7 @@ canvas {
     .fas {
         position: absolute;
         right: 1rem;
-        top: 3.5rem
+        top: 0 !important;
     }
 
     .menu {
